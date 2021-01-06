@@ -3,7 +3,7 @@ function [ Xc ] = Centrerval( Xval, Xcal )
 
 % Size of the validation set
 [nval, mval]=size(Xval);
-[ncal, mcal]=size(Xval);
+[ncal, mcal]=size(Xcal);
 
 % Centering
 if mval==mcal
